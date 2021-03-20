@@ -18,7 +18,7 @@ For RNNs, you need to first preprocess your datasets. For that, use the the R sc
 
 For new datasets, add experiments into "./utility_scripts/execution_scripts/rnn_experiments.sh" script according to the format mentioned in the script and run experiments through that. Makesure to provide absolute paths for datasets. This script contains the examples of running the RNN ensemble of experts and the RNN clustering based models. See those examples for more details.
 
-Create a folder named "results" at the parent level and create sub-folders accordinly to store forecasts, errors and optimised parameters.
+Create a folder named "results" at the parent level and create sub-folders accordingly to store forecasts, errors and optimised parameters.
 
 ## FFNN and PR Execution
 FFNN implementations are within the "./feed_forward_nn" folder. The Python script, "cluster_optimiser.py" performs all clustering related experiments. Single FFNN related experiments are conducted using the Python script, "optimiser.py". Both scripts also perform hyperparamter tuning. The FFNN ensemble of experts implementation is there within the "./ensemble_models" folder ("ensemble_of_experts_fnn.py").
