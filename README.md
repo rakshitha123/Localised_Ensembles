@@ -39,5 +39,5 @@ When using this repository, please cite:
 }
 ```
 
-## References
+# References
 Hewamalage H., Bergmeir C., Bandara K. (2020) Recurrent neural networks for time series forecasting: Current status and future directions. International Journal of Forecasting DOI https://doi.org/10.1016/j.ijforecast.2020.06.008
